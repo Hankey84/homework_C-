@@ -25,6 +25,7 @@ int[,] GenerateMatrix(int row, int column, int leftRange, int rightRange)
 
 
 void PrintMatrix(int[,] matrix)
+
 {
     for (int i = 0; i < matrix.GetLength(0); i++)
     {
